@@ -8,6 +8,7 @@ function updatechlldren(cellobject){
         let value=evaluate(cformula);
         SetiniUI(value,rid,cid,cformula);
         updatechlldren(sheetArr[rid][cid]);
+        initui();
 
     }
 }
@@ -114,3 +115,5 @@ function getridcidadress1(adressbox1){
     let rid=Number(adressbox1.slice(1))-1;
     return {rid ,cid};
    }
+
+  

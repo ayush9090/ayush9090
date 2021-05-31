@@ -1,6 +1,7 @@
 let plsbtn=document.querySelector(".fa-plus");
-
 let sheetlist=document.querySelector(".sheet-list");
+let firstsheet=document.querySelectorAll(".sheet");
+
 plsbtn.addEventListener("click",function(){
     let sheetarr=document.querySelectorAll(".sheet");
     let lastsheet=sheetarr[sheetarr.length-1];
@@ -9,10 +10,12 @@ plsbtn.addEventListener("click",function(){
    let Newsheet=document.createElement("div");
    Newsheet.setAttribute("class","sheet");
    Newsheet.setAttribute("sheetidx",idx+1);
-   Newsheet.innerText=`sheet ${idx+1}`;1
-
+   Newsheet.innerText=`sheet ${idx+1}`;
    sheetlist.appendChild(Newsheet);
+
+
 });
+
 let adress=document.querySelector(".adress-box");
 let ALLcells=document.querySelectorAll(".grid .cell");
 for(let i=0;i<ALLcells.length;i++){

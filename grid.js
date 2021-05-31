@@ -15,7 +15,10 @@ for(let i=0;i<row;i++){
 leftCol.innerHTML=str;
 let grid = document.querySelector(".grid");
 str="";
+let sheetListArr=[];
 let sheetArr=[];
+function sheetmaker(){
+
 for(let i=0;i<100;i++){
     let row = document.createElement("div");
     let rowArr = [];
@@ -40,6 +43,7 @@ for(let i=0;i<100;i++){
     }
     grid.appendChild(row);
     sheetArr.push(rowArr);
-   
 }
-
+sheetListArr.push(sheetArr);
+}
+sheetmaker();

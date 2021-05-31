@@ -9,6 +9,13 @@ let alignleft=document.querySelector(".fa-align-left");
 let alignjustify=document.querySelector(".fa-align-justify");
 let alignright=document.querySelector(".fa-align-right");
 let changecolor=document.querySelector(".changecolor");
+function getridcidadress(adressbox1){
+    let adress=adressbox1.value;
+    let ci=Number(adress.charCodeAt(0));
+    let cid=ci-65;
+    let rid=Number(adress.slice(1))-1;
+    return {rid ,cid};
+   }
 
 fontsize.addEventListener("change",function(){
     let{rid,cid}=getridcidadress(adressbox);
@@ -130,7 +137,9 @@ function getcell(rid,cid){
 let Allcells=document.querySelectorAll(".grid .cell");
 for(let i=0;i<Allcells.length;i++){
     Allcells[i].addEventListener("click",function(){
-        let{rid,cid}=getridcidadress(adress);
+        let adressbox1=document.querySelector(".adress-box");
+        
+        let{rid,cid}=getridcidadress(adressbox1);
         let cellobject=sheetArr[rid][cid];
         if(cellobject.isBold==true){
             bold.classList.add("active-sheet");
@@ -153,11 +162,5 @@ for(let i=0;i<Allcells.length;i++){
      formulabar.value=cellobject.formula;
     })
 }
-function getridcidadress(adressbox1){
-    let adress=adressbox1.value;
-    let ci=Number(adress.charCodeAt(0));
-    let cid=ci-65;
-    let rid=Number(adress.slice(1))-1;
-    return {cid ,rid};
-   }
+
 Allcells[0].click();
