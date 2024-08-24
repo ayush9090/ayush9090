@@ -2,14 +2,15 @@
 
 ## 🌟 About Me
 
-I'm a passionate Full-Stack Developer with a focus on creating seamless web applications and delightful user experiences. I enjoy solving complex problems and am always eager to learn and experiment with new technologies.
+I'm a dedicated Full-Stack Developer with experience in building scalable web applications and enhancing user satisfaction. I specialize in JavaScript, React.js, and Node.js, with a passion for solving complex problems and optimizing performance. Currently, I'm pursuing my Master’s in Computer Science at the University of Texas at Arlington.
 
-- 🔭 I’m currently working on **[Your Current Project](https://github.com/yourusername/yourprojectname)**
-- 🌱 I’m currently learning **Machine Learning, Cloud Computing**
+- 🔭 I’m currently working on **[TipsMagnet - Discover & Share Top Tips](http://www.tipsmagnet.co/1)**
+- 🌱 I’m currently learning **Docker and Kubernetes**
+- 👀 I’m actively looking for **Software Developer** or **Full-Stack Developer** roles
 - 👯 I’m looking to collaborate on **Open Source Projects**
-- 💬 Ask me about **JavaScript, React, Node.js, Cloud Services**
+- 💬 Ask me about **JavaScript, React, Node.js, Express.js, and AWS**
 - 📫 How to reach me: [Email](mailto:axv3184@mavs.uta.edu)
-- ⚡ Fun fact: I'm a huge fan of AI and love exploring its applications in different domains!
+- ⚡ Fun fact: I'm deeply interested in AI and its potential to transform industries!
 
 ## 🛠️ Technologies & Tools
 
@@ -20,31 +21,48 @@ I'm a passionate Full-Stack Developer with a focus on creating seamless web appl
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ## 🧑‍💻 Projects
 
-### [Project Name 1](https://github.com/yourusername/project1)
-**Description:** A brief description of the project. What problem does it solve? What technology stack was used?
+### [TipsMagnet - Discover & Share Top Tips](http://www.tipsmagnet.co/1)
+**Description:** A platform that allows users to discover, share, and discuss the best tips across various topics. Built to provide a seamless user experience and intuitive design, TipsMagnet is the go-to place for crowdsourced knowledge.
 
-- **Tech Stack:** React, Node.js, Express, PostgreSQL
+- **Tech Stack:** React.js, Node.js, Express, PostgreSQL, AWS
 - **Features:**
-  - Feature 1
-  - Feature 2
+  - User-generated tips submission and management
+  - Real-time discussions and feedback on tips
+  - Scalable architecture ensuring high availability
 
-### [Project Name 2](https://github.com/yourusername/project2)
-**Description:** A brief description of the project. What problem does it solve? What technology stack was used?
+### [Academia - Web App for Job Management](https://github.com/ayush9090/academia-web-app)
+**Description:** Developed a comprehensive web application for job management, utilizing React.js for the frontend and Laravel for the backend. Implemented real-time chat features and optimized user interaction, reducing response time by 20%.
 
-- **Tech Stack:** React, Node.js, Express, PostgreSQL
+- **Tech Stack:** React.js, Laravel, WebSocket, Socket.io, PHP, SQL
 - **Features:**
-  - Feature 1
-  - Feature 2
+  - Real-time chat functionality
+  - Efficient database management for seamless data storage and retrieval
 
-### [More Projects](https://github.com/yourusername?tab=repositories)
+### [Portfolio Website](https://ayushvariyava.com)
+**Description:** Designed and developed a personal portfolio to showcase skills and achievements using React.js and JSX. The website includes dynamic project showcases and interactive design elements.
+
+- **Tech Stack:** React.js, Kubernetes, Docker
+- **Features:**
+  - Interactive project showcases
+  - High availability with automatic pod creation using Kubernetes
+
+### [Automating Nearby Places Information Retrieval](https://github.com/ayush9090/places-info-retrieval)
+**Description:** Created a Node.js script to automate the extraction of location data from Google using Puppeteer and web scraping libraries. This script runs at scheduled intervals and emails reports to users.
+
+- **Tech Stack:** Node.js, Puppeteer, Web Scraping
+- **Features:**
+  - Automated location data extraction
+  - Scheduled report generation and email notifications
+
+### [More Projects](https://github.com/ayush9090?tab=repositories)
 
 ## 📝 Blog Posts
 
-- [Blog Post Title 1](https://yourblog.com/post1)
-- [Blog Post Title 2](https://yourblog.com/post2)
+- *Coming soon!*
 
 ## 📫 Connect with Me
 
